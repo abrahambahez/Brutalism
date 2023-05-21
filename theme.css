@@ -1,0 +1,42 @@
+body {
+  /* Backgrounds */
+  --background-primary: var(--color-base-00);
+  --background-primary-alt: var(--color-base-00);
+  --background-secondary: var(--color-base-00);
+  --background-modifier-border: var(--color-base-60);
+  --background-modifier-border-hover: var(--color-base-20);
+  --background-modifier-border-focus: var(--color-base-50);
+  --tab-container-background: var(--color-base-00);
+  --titlebar-background: var(--color-base-00);
+  --titlebar-background-focused: var(--color-base-00);
+  /* Graph adjustements */
+  --graph-line: var(--color-base-40, var(--background-modifier-border-focus));
+
+  /* Font sizes */
+  --header-size: 1.25em;
+  --h1-size: var(--header-size);
+  --h2-size: var(--header-size);
+  --h3-size: var(--header-size);
+  --h4-size: var(--header-size);
+  --h5-size: var(--header-size);
+  --h6-size: var(--header-size);
+
+   /* UI font sizes */
+  --font-ui-smaller: 13px;
+  --font-ui-small: 14px;
+  --font-ui-medium: 16px;
+  --font-ui-large: 22px; 
+}
+
+body:not(.native-scrollbars) ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.theme-dark {
+  --color-base-00: #1a1b26;
+}
+
+.theme-light  {
+  --color-base-00: #d5d6db;
+}
