@@ -3,9 +3,9 @@ body {
   --background-primary: var(--color-base-00);
   --background-primary-alt: var(--color-base-00);
   --background-secondary: var(--color-base-00);
-  --background-modifier-border: var(--color-base-60);
+  --background-modifier-border: var(--color-base-40);
   --background-modifier-border-hover: var(--color-base-20);
-  --background-modifier-border-focus: var(--color-base-50);
+  --background-modifier-border-focus: var(--color-base-40);
   --tab-container-background: var(--color-base-00);
   --titlebar-background: var(--color-base-00);
   --titlebar-background-focused: var(--color-base-00);
@@ -26,6 +26,14 @@ body {
   --font-ui-small: 14px;
   --font-ui-medium: 16px;
   --font-ui-large: 22px; 
+
+  /* UI font colors */
+  --h1-color: var(--header-color);
+  --h2-color: var(--header-color);
+  --h3-color: var(--header-color);
+  --h4-color: var(--header-color);
+  --h5-color: var(--header-color);
+  --h6-color: var(--header-color);
 }
 
 body:not(.native-scrollbars) ::-webkit-scrollbar {
@@ -35,8 +43,18 @@ body:not(.native-scrollbars) ::-webkit-scrollbar {
 
 .theme-dark {
   --color-base-00: #1a1b26;
+  --header-color: #7aa2f7; /* #0f4bef alternative*/
+  --bold-color: #bb9af7;
+  --italic-color: #9aa5ce;
+  --text-highlight-bg: #9ece6a66;
+  --text-faint: #565f8966;
 }
 
 .theme-light  {
   --color-base-00: #d5d6db;
+  --header-color: #34548a; /* #0f4bef alternative*/
+  --bold-color: #5a4a78;
+  --italic-color: #343b58;
+  --text-highlight-bg: #485e3066;
+  --text-faint: #9699a366;
 }
