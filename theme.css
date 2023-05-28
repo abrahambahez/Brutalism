@@ -3,9 +3,12 @@ body {
   --background-primary: var(--color-base-00);
   --background-primary-alt: var(--color-base-00);
   --background-secondary: var(--color-base-00);
-  --background-modifier-border: var(--color-base-40);
-  --background-modifier-border-hover: var(--color-base-20);
+  --background-modifier-border: var(--color-base-60);
+  --background-modifier-border-hover: var(--color-base-40);
   --background-modifier-border-focus: var(--color-base-40);
+  --interactive-hover: var(--color-base-00);
+
+  /* Normalize title bar colors */
   --tab-container-background: var(--color-base-00);
   --titlebar-background: var(--color-base-00);
   --titlebar-background-focused: var(--color-base-00);
@@ -36,7 +39,8 @@ body {
   --h6-color: var(--header-color);
 }
 
-body:not(.native-scrollbars) ::-webkit-scrollbar {
+/* Remove scrollbar */
+body:not(.native-scrollbars), ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
@@ -47,7 +51,7 @@ body:not(.native-scrollbars) ::-webkit-scrollbar {
   --bold-color: #bb9af7;
   --italic-color: #9aa5ce;
   --text-highlight-bg: #9ece6a66;
-  --text-faint: #565f8966;
+  --text-faint: #565f8988;
 }
 
 .theme-light  {
@@ -56,5 +60,5 @@ body:not(.native-scrollbars) ::-webkit-scrollbar {
   --bold-color: #5a4a78;
   --italic-color: #343b58;
   --text-highlight-bg: #485e3066;
-  --text-faint: #9699a366;
+  --text-faint: #9699a388;
 }
