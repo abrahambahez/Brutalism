@@ -8,6 +8,7 @@ A theme based on the [web brutalist](https://brutalist-web.design/) approach. Ma
 
 - Words are the *béton brut*, the raw material. Forget about fancy visual features, focus on writing
 - Less css is always better
+- If you like inline-title, there is a fun gradient and fluid typography version
 - Let space for native obsidian config, like accent color or font selection
 - For more information about this approach, read the [forum post](https://forum.obsidian.md/t/a-brutalist-approach-to-knowledge-management-in-obsidian/60553)
 
