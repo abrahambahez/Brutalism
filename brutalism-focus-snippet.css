@@ -1,0 +1,28 @@
+/* Hide Ribbon Sidebar */
+body {
+  --ribbon-width: 0px;
+  --ribbon-padding: 0px;
+}
+.workspace-ribbon {
+  border-right: none !important; 
+}
+
+
+/* Hide top icons */
+.sidebar-toggle-button {
+  display:none;
+}
+
+
+/* Hide status bar */
+.status-bar {
+  display: none;
+}
+
+
+/* Hide scrollbar */
+body:not(.native-scrollbars), ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+

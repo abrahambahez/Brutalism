@@ -12,6 +12,7 @@ body {
   --tab-container-background: var(--color-base-00);
   --titlebar-background: var(--color-base-00);
   --titlebar-background-focused: var(--color-base-00);
+
   /* Graph adjustements */
   --graph-line: var(--color-base-40, var(--background-modifier-border-focus));
 
@@ -24,7 +25,7 @@ body {
   --h5-size: var(--header-size);
   --h6-size: var(--header-size);
 
-   /* UI font sizes */
+  /* UI font sizes */
   --font-ui-smaller: 13px;
   --font-ui-small: 14px;
   --font-ui-medium: 16px;
@@ -37,22 +38,6 @@ body {
   --h4-color: var(--header-color);
   --h5-color: var(--header-color);
   --h6-color: var(--header-color);
-
-  /* Inline title fun */
-.inline-title {
-  font-size: calc(26px + (72 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: 1;
-  font-family: 'Archivo', 'Archivo SemiBold', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: -webkit-radial-gradient(#bb9af7, #f7768e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-}
-}
-
-/* Remove scrollbar */
-body:not(.native-scrollbars), ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
 }
 
 .theme-dark {
@@ -72,3 +57,14 @@ body:not(.native-scrollbars), ::-webkit-scrollbar {
   --text-highlight-bg: #485e3066;
   --text-faint: #9699a388;
 }
+
+/* Inline title fun */
+.inline-title {
+  font-size: calc(26px + (72 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1;
+  font-family: 'Archivo', 'Archivo SemiBold', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: -webkit-radial-gradient(#bb9af7, #f7768e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
