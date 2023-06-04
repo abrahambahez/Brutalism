@@ -21,8 +21,6 @@ body {
 
 
 /* Hide scrollbar */
-body:not(.native-scrollbars), ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+body:not(.native-scrollbars) ::-webkit-scrollbar {
+  width:0px;
 }
-
