@@ -30,7 +30,7 @@ Or if you prefer a sans serif as writing font and other for UI
 
 I've add a css snippet to hide the scrollbar, statusbar, sidebar and toggle-sidebar icons if you're like me: a keyboard-only nerd that has shortcuts to control everything. If you'd like to get a cleaner version of the theme, feel free to download and use.
 
-- Download the snippet using [this link](https://raw.githubusercontent.com/abrahambahez/Brutalism/main/brutalism-focus-snippet.css)
+- Download the snippet using [this link](https://github.com/abrahambahez/Brutalism/blob/main/brutalism-focus-snippet.css)
 - Add the ccs file to your snippets folder in `.obsidian/snippets/` (create a folder with that name if doesn't exist)
 - Activate the snippet in `Appearances`, selecting it in the option `CSS snippets`
 - Feel free to remove or add more css to the snippet
